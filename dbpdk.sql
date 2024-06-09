@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 17 Bulan Mei 2024 pada 15.50
+-- Waktu pembuatan: 09 Jun 2024 pada 07.42
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.1.17
 
@@ -39,8 +39,8 @@ CREATE TABLE `tb_pdk` (
 --
 
 INSERT INTO `tb_pdk` (`id`, `nik`, `nama`, `alamat`) VALUES
-(1, '8888888', 'arga', 'RHS'),
-(2, '9999999', 'dennis al', 'pg');
+(1, '8888888', 'arga zain aksani', 'Semarang'),
+(10, '21670009', 'Arga Zain Aksani 2', 'Semarang Timur ');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +60,7 @@ ALTER TABLE `tb_pdk`
 -- AUTO_INCREMENT untuk tabel `tb_pdk`
 --
 ALTER TABLE `tb_pdk`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
